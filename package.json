@@ -1,0 +1,47 @@
+{
+  "name": "Quantum Bot",
+  "version": "0.1.0",
+  "description": "A modular bot framework.",
+  "author": "Tom",
+  "contributors": [{
+}],
+  "bin": {
+  "module-name": ""
+},
+  "scripts": {
+    "test": "",
+    "start": "node src/quantum.js",
+    
+    
+    "prepublish": ""
+  },
+  "main": "src/quantum.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/tjw0051/quantumbot"
+},
+  "bugs": {
+  "url": "https://github.com/tjw0051/quantumbot/issues"
+},
+  "keywords": [
+  "Bot",
+  "IRC",
+  "AI"
+],
+  "dependencies": {
+    "redis": "*",
+    "util": "*",
+    "discord.js": "*",
+    "colors": "*"
+  },
+  "devDependencies": {
+  },
+  "preferGlobal": true,
+  "private": true,
+  "publishConfig": {
+  "registry": ""
+},
+  
+  
+  "license": "MIT"
+}
